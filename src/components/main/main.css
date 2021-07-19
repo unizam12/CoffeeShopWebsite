@@ -1,0 +1,138 @@
+.main-container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+* {
+	box-sizing: border-box;
+}
+.announcement {
+	background-color: #d8e8e3;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 32px;
+}
+
+.announcement span {
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+	max-width: 60%;
+	text-align: center;
+	font-size: 19px;
+	line-height: 1.75;
+	font-weight: 500;
+}
+.announcement a {
+	color: black;
+}
+.left-right-section {
+	display: flex;
+	margin-bottom: 32px;
+}
+.left-right-section .text {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #f1f8f6;
+	color: #1e3932;
+	padding: 32px 48px;
+}
+.left-right-section .image {
+	width: 50%;
+	display: flex;
+}
+.image img {
+	width: 100%;
+}
+.text h1,
+.text h3 {
+	margin: 0;
+	font-weight: 400;
+	text-align: center;
+}
+.text h1 {
+	margin-bottom: 24px;
+}
+.text h3 {
+	margin-bottom: 32px;
+	font-size: 19px;
+}
+.text .cta {
+	padding: 7px 16px;
+	border: 1px solid;
+	border-radius: 50px;
+	cursor: pointer;
+	font-weight: 600;
+	transition: all 0.2s ease;
+}
+.text .cta:hover {
+	background-color: rgba(30, 57, 50, 0.1);
+	padding: 7px 32px;
+}
+.chill .text {
+	background-color: #f2f0eb;
+}
+.chill .text h1 {
+	font-weight: 700;
+	line-height: 1.2;
+	font-size: 50px;
+	letter-spacing: 8px;
+}
+.chill .text h3 {
+	font-size: 24px;
+	line-height: 1.5;
+}
+section {
+	display: flex;
+}
+.top-bottom-section {
+	width: 50%;
+	display: flex;
+	margin-bottom: 32px;
+}
+.section-container {
+	display: flex;
+	flex-direction: column;
+}
+.top-bottom-section .image {
+	width: 100%;
+}
+.top-bottom-section .image img {
+	width: 100%;
+}
+.top-bottom-section .text {
+	display: flex;
+	flex-direction: column;
+	background-color: #d4e9e2;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-bottom: 32px;
+	padding-top: 12px;
+	color: #1e3932;
+	flex-grow: 1;
+	font-size: 16px;
+}
+.cta-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.top-bottom-section .image {
+	display: flex;
+}
+.top-bottom-section:first-child .section-container {
+	margin-right: 16px;
+}
+.top-bottom-section:last-child .section-container {
+	margin-left: 16px;
+}
+.top-bottom-section .text h1 {
+	font-size: 24px;
+	font-weight: 400;
+	margin-bottom: 24px;
+}
+.top-bottom-section .text h3 {
+	font-size: 19px;
+	line-height: 1.75;
+}
